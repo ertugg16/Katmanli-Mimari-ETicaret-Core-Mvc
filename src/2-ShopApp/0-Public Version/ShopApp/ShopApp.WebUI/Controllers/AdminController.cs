@@ -13,7 +13,7 @@ using ShopApp.WebUI.Models;
 namespace ShopApp.WebUI.Controllers
 {
     [Authorize(Roles ="admin")]
-    public class AdminController : Controller
+    public class AdminController : Controller 
     {
         private IProductService _productService;
         private ICategoryService _categoryService;
